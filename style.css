@@ -286,3 +286,21 @@ html {
     font-size: 18px;
   }
 }
+
+@media (max-width: 768px) {
+  .topbar {
+    flex-wrap: wrap;
+    padding: 5px;
+    gap: 5px;
+    max-height: none;
+  }
+
+  .topbar button {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+
+  .header {
+    margin-top: 100px; /* wiecej miejsca pod pasek */
+  }
+}
