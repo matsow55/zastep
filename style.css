@@ -254,3 +254,35 @@ html {
     padding: 20px 10px;
   }
 }
+
+.gora h1 {
+  font-size: 64px;
+  background: linear-gradient(45deg, #333, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin: 20px 0 10px;
+  font-weight: 800;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.gora p {
+  font-size: 24px;
+  background: linear-gradient(45deg, #333, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin: 20px 0 10px;
+  font-weight: 800;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+  .gora h1 {
+    font-size: 42px;
+  }
+
+  .gora p {
+    font-size: 18px;
+  }
+}
